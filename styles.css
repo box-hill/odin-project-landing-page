@@ -88,6 +88,7 @@ li {
 .second-box-info {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
     font-weight: 400;
     font-size: 24px;
 }
@@ -119,8 +120,30 @@ li {
 .third-box{
     display:flex;
     background-color: #E5E7EB;
-
+    color:#1F2937;
+    justify-content: center;
+    align-items: center;
 }
+
+.third-box .quote-box{
+    display:flex;
+    flex-direction: column;
+    margin:100px;
+    align-items:flex-end;
+}
+.quote {
+    font-weight: 300;
+    font-size:24px;
+    margin-bottom: 20px;    
+}
+
+.author {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
 .footer{
     background-color: #1F2937;
     text-align: center;
