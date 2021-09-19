@@ -9,6 +9,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+button {
+    background-color: #3882F6;
+    border-style: none;
+    
+}
+button a{
+    text-decoration:none;
+    text-align:center;
+    color:#E5E7EB;
+}
+
 .first-box{
     display:flex;
     background-color: #1F2937;
@@ -26,10 +37,13 @@ body {
 .first-btm-box {
     display:flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .first-btm-box img {
     height:200px;
-    width: 600px;
+    width: 400px;
+    margin-left: 50px;
+    flex-shrink:0;
 }
 
 .header-logo {
@@ -53,8 +67,14 @@ li {
 
 .header {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
+}
+
+.subtext {
+    color:#E5E7EB;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .second-box{
