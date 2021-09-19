@@ -78,9 +78,43 @@ li {
 }
 
 .second-box{
+    margin:0px;
     display:flex;
     background-color: white;
+    color: #1F2937;
+    flex-direction:column;
 }
+
+.second-box-info {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container-information {
+    display:flex;
+    justify-content: center;
+
+}
+.container-image-subtext {
+    display:flex;
+    flex-direction: column;
+    max-width: 100px;
+    margin: 20px;    
+}
+.container-image-subtext img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.container-image-subtext div{
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
 
 .third-box{
     display:flex;
